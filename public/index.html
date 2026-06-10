@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SECE AI Assistant | Sri Eshwar College of Engineering</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="logo-container">
+                <div class="logo">SECE AI</div>
+            </div>
+            <div class="sidebar-content">
+                <h3>About SECE</h3>
+                <p>Sri Eshwar College of Engineering (TNEA: 2739) is a leading institution in Coimbatore.</p>
+                <div class="links">
+                    <a href="https://sece.ac.in" target="_blank">Official Website</a>
+                    <a href="https://erp.sece.ac.in" target="_blank">Student ERP</a>
+                </div>
+            </div>
+            <div class="sidebar-footer">
+                <p>© 2026 Sri Eshwar College</p>
+            </div>
+        </aside>
+
+        <main class="chat-container">
+            <header class="chat-header">
+                <h1>SECE Knowledge Assistant</h1>
+                <span class="status-badge">Gemini Powered</span>
+            </header>
+
+            <div id="chat-messages" class="chat-messages">
+                <div class="message bot">
+                    <div class="message-content">
+                        Hello! I am your SECE Assistant. Ask me anything about departments, admissions, placements, or facilities at Sri Eshwar College of Engineering.
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-area">
+                <form id="chat-form">
+                    <input type="text" id="user-input" placeholder="Ask a question about SECE..." autocomplete="off">
+                    <button type="submit" id="send-button">
+                        <svg viewBox="0 0 24 24" width="20" height="20">
+                            <path fill="currentColor" d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal for Retrieval Scores -->
+    <div id="score-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Retrieval Scores & Context</h2>
+            <div id="scores-container"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

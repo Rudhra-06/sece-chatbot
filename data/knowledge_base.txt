@@ -1,0 +1,47 @@
+# Sri Eshwar College of Engineering (SECE) Knowledge Base
+
+## About SECE
+Sri Eshwar College of Engineering (SECE) is a premier technical institution located in Coimbatore, Tamil Nadu, India. It is well-known for its commitment to excellence in engineering education and research. The college is affiliated with Anna University, Chennai, and is approved by the All India Council for Technical Education (AICTE), New Delhi. SECE holds the TNEA counselling code 2739. The institution is dedicated to providing a holistic learning environment that fosters innovation and professional growth.
+
+## Departments
+SECE offers a wide range of undergraduate and postgraduate programs across various engineering disciplines. The key departments include:
+- Computer Science and Engineering (CSE)
+- Artificial Intelligence and Machine Learning (CSE-AIML)
+- Artificial Intelligence and Data Science (AI&DS)
+- Cyber Security
+- Computer Science and Business Systems (CSBS)
+- Computer and Communication Engineering (CCE)
+- Electronics and Communication Engineering (ECE)
+- VLSI (Electronics and Communication Engineering)
+- Electrical and Electronics Engineering (EEE)
+- Information Technology (IT)
+- Mechanical Engineering (MECH)
+- Science and Humanities (S&H)
+
+## Admissions
+Admissions to Sri Eshwar College of Engineering are primarily conducted through the Tamil Nadu Engineering Admissions (TNEA) process for government quota seats. The college also offers admission under the Management Quota. Admissions for the academic year 2025 are currently open. Prospective students are encouraged to visit the official website or contact the admission office for detailed eligibility criteria and application procedures.
+
+## Academics
+The academic programs at SECE follow the curriculum prescribed by Anna University. Currently, the institution adheres to the R2021 and R2023 regulations. To streamline academic and administrative processes, SECE utilizes an advanced Enterprise Resource Planning (ERP) system, which can be accessed by students and faculty at erp.sece.ac.in. The curriculum is designed to meet industry standards and emphasize practical learning.
+
+## Research and Development
+SECE has a robust research ecosystem supported by its Centre for Research. The institution encourages faculty and students to engage in cutting-edge research, secure research grants, and utilize seed funds provided by the college. The Intellectual Property Rights (IPR) cell assists in patent filing and commercialization. The college also undertakes various consultancy projects for industrial partners, bridging the gap between academia and industry.
+
+## Innovation and Entrepreneurship
+The Centre for Innovation at SECE is a hub for creative thinking and problem-solving. It hosts various Centres of Excellence (CoEs) in collaboration with industry leaders. The Institution's Innovation Council (IIC) promotes a culture of innovation on campus. Students regularly participate in Hackathons and technical competitions. The Ignite Startup Accelerator provides mentorship and resources for student-led startups and entrepreneurial ventures.
+
+## Placements
+The Centre for Training & Placements at SECE is dedicated to ensuring that students are well-prepared for their careers. The placement cell organizes aptitude training, soft skills development, and mock interviews. SECE boasts a strong placement record with top recruiters visiting the campus every year. Students receive comprehensive support to secure placements in renowned national and international companies.
+
+## International Alliances
+SECE has established global alliances with several prestigious international universities and organizations. These partnerships facilitate semester abroad programs, international internships, and inward/outward mobility for both students and faculty. Such global exposure helps students gain a broader perspective on engineering and technology and prepares them for the global workforce.
+
+## Facilities and Infrastructure
+The SECE campus is equipped with state-of-the-art facilities to support academic and extracurricular activities. The campus is Wi-Fi enabled and features smart classrooms for an enhanced learning experience. Other facilities include a well-stocked library, modern sports infrastructure, safe and comfortable hostels for both men and women, and an on-campus medical facility to cater to the health needs of the campus community.
+
+## Contact Information
+For more information, visit the official website at sece.ac.in. 
+- Alumni Portal: alumni.sece.ac.in
+- Virtual Campus Tour: campustour.sece.ac.in
+- ERP Portal: erp.sece.ac.in
+For queries related to admissions, placements, or general information, users can refer to the official college contact numbers available on the website.

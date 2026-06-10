@@ -1,0 +1,7 @@
+groq
+faiss-cpu
+fastapi
+uvicorn
+python-dotenv
+numpy
+requests
