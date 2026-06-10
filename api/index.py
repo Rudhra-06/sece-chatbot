@@ -43,8 +43,12 @@ async def process_query(request: QueryRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+from pathlib import Path
+
+PUBLIC_DIR = Path(__file__).parent.parent / "public"
+
 @app.get("/")
 async def read_index():
-    return FileResponse("public/index.html")
+    return FileResponse(PUBLIC_DIR / "index.html")
 
-app.mount("/", StaticFiles(directory="public", html=True), name="public")
+app.mount("/", StaticFiles(directory=str(PUBLIC_DIR), html=True), name="public")
