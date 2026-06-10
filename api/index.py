@@ -1,6 +1,4 @@
 from fastapi import FastAPI, HTTPException
-from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse
 from pydantic import BaseModel
 import os
 import json
@@ -30,25 +28,23 @@ else:
         with open(KB_PATH, "r", encoding="utf-8") as f:
             engine.create_index(f.read())
 
+
 class QueryRequest(BaseModel):
     query: str
+
 
 @app.post("/api/query")
 async def process_query(request: QueryRequest):
     if not request.query:
         raise HTTPException(status_code=400, detail="Query cannot be empty")
+
     try:
         result = engine.query(request.query)
         return result
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-from pathlib import Path
-
-PUBLIC_DIR = Path(__file__).parent.parent / "public"
 
 @app.get("/")
-async def read_index():
-    return FileResponse(PUBLIC_DIR / "index.html")
-
-app.mount("/", StaticFiles(directory=str(PUBLIC_DIR), html=True), name="public")
+async def root():
+    return {"message": "SECE API is running"}
